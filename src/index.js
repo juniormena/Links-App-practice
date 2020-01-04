@@ -4,7 +4,7 @@ const exphbs = require('express-handlebars');
 const path = require('path')
 
 //initialization
-const app = express()
+const app = express();
 //settings
 app.set('port',process.env.PORT || 4000);
 app.set('views',path.join(__dirname,'views'));//decir donde esta la caperta views
